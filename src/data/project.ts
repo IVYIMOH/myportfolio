@@ -80,11 +80,11 @@ export const stats: Stat[] = [
 
 export const contactLinks: ContactLink[] = [
   { label: "Email", value: "hello@example.com", href: "mailto:hello@example.com", icon: "mail" },
-  { label: "WhatsApp", value: "+233 54 000 0000", href: "https://wa.me/233540000000", icon: "whatsapp" },
-  { label: "LinkedIn", value: "in/ama-mensah", href: "https://www.linkedin.com", icon: "linkedin" },
+  { label: "WhatsApp", value: "+254 712 472 836", href: "https://wa.me/254712472836", icon: "whatsapp" },
+  { label: "LinkedIn", value: "in/i_moh", href: "https://www.linkedin.com", icon: "linkedin" },
   { label: "Behance", value: "behance.net/amamensah", href: "https://www.behance.net", icon: "behance" },
 ];
 
 export const skillChips = ["Fintech design", "Product design, end-to-end", "UX research", "Design-token systems"];
 
-export const aboutChips = ["Accra, Ghana", "BSc Computer Engineering", "UI/UX Designer"];
+export const aboutChips = ["Kisumu, Kenya", "Software Developer", "UI/UX Designer"];
