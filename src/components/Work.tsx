@@ -6,7 +6,7 @@ import work3 from "../assets/work-3.jpg";
 const secondary = [
   {
     img: work2,
-    tag: "Insurtech",
+    tag: "Photograph marketplace",
     title: "InnoVate",
     body: "An insurance admin dashboard with a semantic design system and responsive screens for policies, claims and customers.",
     cta: "Open prototype",
@@ -40,7 +40,7 @@ export default function Work() {
         <article className="shadow-soft mt-12 overflow-hidden rounded-3xl border border-border bg-card">
           <img
             src={work1}
-            alt="Affinity web banking platform designs"
+            alt="FinTech . Product Design . UI/UX"
             width={1200}
             height={800}
             loading="lazy"
@@ -48,11 +48,18 @@ export default function Work() {
           />
           <div className="p-8 md:p-10">
             <p className="text-xs uppercase tracking-[0.2em] text-primary">Featured · Fintech</p>
-            <h3 className="mt-3 font-display text-3xl tracking-tight">Affinity Web App</h3>
+            <h3 className="mt-3 font-display text-3xl tracking-tight">Chama App</h3>
             <p className="mt-4 max-w-3xl leading-relaxed text-muted-foreground">
-              The personal-banking experience for a web platform, designed end to end. I translated
-              mobile flows into scalable desktop layouts and built workflows tailored to business and
-              operational users — funding, approvals, and account management.
+              A digital platform designed to simplify how Chama groups manage their collective
+              finances.
+              I designed the product experience from the ground up, including onboarding, group 
+              creation, contributions, loan requests, transactions and administration.
+              The challenge was not simply making the interface look good. It was making financial 
+              information feel clear, trustworthy and easy to navigate.
+
+              My contribution
+              User flows . Information architecture . Wireframes . Responsive UI. Dashboard design
+              Design system .Prototyping
             </p>
             <p className="mt-6 text-sm text-muted-foreground">
               <span className="font-medium text-foreground">UI/UX Designer</span> · Affinity Africa

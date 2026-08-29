@@ -16,15 +16,17 @@ export default function Contact() {
         <div>
           <SectionLabel>contact</SectionLabel>
           <h2 className="mt-5 font-display text-4xl leading-tight tracking-tight md:text-5xl">
-            Let's build something people love to use.
+            Let's build something useful.
           </h2>
           <p className="mt-5 max-w-md leading-relaxed text-muted-foreground">
-            I'm open to product design roles, freelance projects, and collaborations across any
-            product. Send a message, or reach me directly.
+            I'm open to UI/UX and Product design opportunities, freelance projects, and open-source collaborations and product teams
+            working in blockchain, FinTech, HealthTech and AI.
+            If you are building something complex and need someone who can think about both the user and the system
+            behind the interface, I'd love to hear from you.
           </p>
           <ul className="mt-10 space-y-3">
             {contactLinks.map((c) => {
-              const Icon = icons[c.icon];
+              const Icon = icons[c.icon] || Globe;
               return (
                 <li key={c.label}>
                   <a

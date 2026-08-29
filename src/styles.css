@@ -2,16 +2,10 @@
 
 @custom-variant dark (&:is(.dark *));
 
-@theme inline {
+@theme {
   --font-display: "Playfair Display", Georgia, serif;
   --font-sans: "DM Sans", ui-sans-serif, system-ui, sans-serif;
-  --radius-sm: calc(var(--radius) - 4px);
-  --radius-md: calc(var(--radius) - 2px);
-  --radius-lg: var(--radius);
-  --radius-xl: calc(var(--radius) + 4px);
-  --radius-2xl: calc(var(--radius) + 8px);
-  --radius-3xl: calc(var(--radius) + 12px);
-  --radius-4xl: calc(var(--radius) + 16px);
+  
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-card: var(--card);
@@ -34,7 +28,6 @@
 }
 
 :root {
-  --radius: 1rem;
   --background: oklch(0.985 0.006 60);
   --foreground: oklch(0.19 0.01 40);
   --card: oklch(0.995 0.004 70);
@@ -54,12 +47,6 @@
   --border: oklch(0.9 0.012 45);
   --input: oklch(0.9 0.012 45);
   --ring: oklch(0.52 0.17 5);
-  --gradient-halo: radial-gradient(
-    60% 60% at 50% 0%,
-    color-mix(in oklab, var(--primary) 14%, transparent),
-    transparent 70%
-  );
-  --shadow-soft: 0 20px 50px -30px color-mix(in oklab, var(--primary) 45%, transparent);
 }
 
 .dark {
@@ -93,28 +80,5 @@
     background-color: var(--color-background);
     color: var(--color-foreground);
     font-family: var(--font-sans);
-    -webkit-font-smoothing: antialiased;
   }
-
-  html {
-    scroll-behavior: smooth;
-  }
-}
-
-@utility eyebrow {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.65rem;
-  font-family: var(--font-display);
-  font-style: italic;
-  font-size: 0.95rem;
-  color: var(--muted-foreground);
-}
-
-@utility halo {
-  background-image: var(--gradient-halo);
-}
-
-@utility shadow-soft {
-  box-shadow: var(--shadow-soft);
 }

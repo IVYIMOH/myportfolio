@@ -1,6 +1,6 @@
 import SectionLabel from "./SectionLabel";
 import { aboutChips } from "../data/projects";
-import portrait from "../assets/portrait.jpg";
+import portrait from "../assets/portrait.jpeg";
 
 export default function About() {
   return (
@@ -10,7 +10,7 @@ export default function About() {
           <div className="absolute inset-0 translate-x-3 translate-y-3 rounded-3xl border border-primary/30" />
           <img
             src={portrait}
-            alt="Ama Mensah, product designer"
+            alt="Ivy Imoh, product designer"
             width={900}
             height={1100}
             loading="lazy"
@@ -18,25 +18,30 @@ export default function About() {
           />
         </div>
         <div>
-          <SectionLabel>about</SectionLabel>
+          <SectionLabel>About</SectionLabel>
           <h2 className="mt-5 font-display text-4xl leading-tight tracking-tight md:text-5xl">
-            Designer with an engineer's mindset.
+            Creativity is a choice I make.
           </h2>
           <div className="mt-6 space-y-5 leading-relaxed text-muted-foreground">
             <p>
-              I'm a UI/UX designer with 3 years of experience, and I have designed products ranging
-              from digital banking experiences to health management systems, for people across Ghana.
-              My focus is on simplifying tasks which feel overwhelming for first-time users into
-              experiences that are clear, reassuring and effortless to navigate.
+              I'm a UI/UX and Product Designer with a background in Software Engineering. I enjoy taking
+              problems that feel complicated; financial workflows, healthcare data, emerging technologies
+              and turning them into experiences that people can understand and use confidently.
             </p>
             <p>
-              My background in engineering means I collaborate closely with developers and understand
-              the technical constraints behind every design decision — so the work I hand over is both
-              user-centred and practical to build.
+              My path into design started from a technical and scientific background. Studying Forensic Biology
+              taught me to investigate problems carefully, look for patterns and make decisions based on evidence.
+              Software Engineer has taught me how systems work behind the interface. Product design brought those
+              two ways of thinking together.
+              Today, I design with both sides in mind: **what makes sense for the user and what makes sense to build.** 
             </p>
             <p>
-              Away from work, I run a small food business, love horror movies, and volunteer teaching
-              children at my church.
+              My work has included financial products, healthcare systems, AI concepts and Bitcoin/blockchain experiences. 
+              I'm particularly interested in products that solve meaningful problems in underserved markets, open-source 
+              communities and emerging technology.
+
+              Kenya
+              Software Engineer . UI/UX Designer . Product Designer
             </p>
           </div>
           <div className="mt-8 flex flex-wrap gap-2 text-sm">
