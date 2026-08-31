@@ -7,10 +7,10 @@ export default function Results() {
       <div className="mx-auto max-w-6xl">
         <SectionLabel>analytics &amp; results</SectionLabel>
         <h2 className="mt-5 font-display text-4xl tracking-tight md:text-5xl">
-          Impact behind the interfaces.
+          Impact.
         </h2>
         <p className="mt-4 max-w-2xl text-muted-foreground">
-          Real product work, grounded in research and shipped with engineering teams.
+          What I bring to the table.
         </p>
         <div className="mt-12 grid gap-6 md:grid-cols-3">
           {stats.map((s) => (
