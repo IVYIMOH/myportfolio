@@ -39,7 +39,7 @@ export interface ContactLink {
   label: string;
   value: string;
   href: string;
-  icon: "mail" | "whatsapp" | "linkedin" | "behance" | "messageCircle" | "globe";
+  icon: "mail" | "whatsapp" | "linkedin" | "messageCircle" | "globe";
 }
 
 export const nav: NavItem[] = [
@@ -52,38 +52,38 @@ export const nav: NavItem[] = [
 
 export const services: Service[] = [
   {
-    title: "Mobile Product Design",
-    body: "Fintech flows, onboarding, and payments designed for real customers.",
-    description: "Fintech flows, onboarding, and payments designed for real customers.",
+    title: "UI/UX Design",
+    body: "Designing user flows, wireframes, prototypes and intuitive interfaces that make products easier to use.",
+    description: "Designing user flows, wireframes, prototypes and intuitive interfaces that make products easier to use.",
   },
   {
-    title: "Product Strategy",
-    body: "User journeys, requirements, and prioritisation that shape what to build.",
-    description: "User journeys, requirements, and prioritisation that shape what to build.",
+    title: "Product Design",
+    body: "Turning real-world problems into clear product experiences, from early ideas and user journeys to polished interfaces.",
+    description: "Turning real-world problems into clear product experiences, from early ideas and user journeys to polished interfaces.",
   },
   {
-    title: "Design Systems",
-    body: "Figma libraries, tokens, and reusable components built to scale.",
-    description: "Figma libraries, tokens, and reusable components built to scale.",
+    title: "Dashboard Design",
+    body: "Structuring complex information into clear, useful dashboards that help people understand and act on data.",
+    description: "Structuring comlex information into clear, useful dashboards that help people understand and act on data.",
   },
   {
-    title: "Analytics & Growth UX",
-    body: "Dashboards, engagement, and retention features that move metrics.",
-    description: "Dashboards, engagement, and retention features that move metrics.",
+    title: "Emerging Technology",
+    body: "Exploring user-centered experiences for AI, Bitcoin, blockchain, and open-source products.",
+    description: "Exploring user-centered experiences for AI, Bitcoin, blockchain, and open-source products.",
   },
 ];
 
 export const process: ProcessStep[] = [
-  { n: "01", step: "01", title: "Discover", body: "I dig into the users, the business, and what's actually not working.", description: "I dig into the users, the business, and what's actually not working." },
-  { n: "02", step: "02", title: "Define", body: "I turn findings into clear problems, flows, and priorities.", description: "I turn findings into clear problems, flows, and priorities." },
-  { n: "03", step: "03", title: "Design", body: "Wireframes through to polished UI, all on one reusable system.", description: "Wireframes through to polished UI, all on one reusable system." },
-  { n: "04", step: "04", title: "Deliver", body: "I work with engineers to ship it, then refine from feedback.", description: "I work with engineers to ship it, then refine from feedback." },
+  { n: "01", step: "01", title: "Discover", body: "I understand the users, the problem, the context, and what is actually getting in the way.", description: "I understand the users, the problem, the context, and what is actually getting in the way" },
+  { n: "02", step: "02", title: "Define", body: "I turn research and requirements into clear problems, user flows, information architecture, and priorities.", description: "I turn research and requirements into clear problems, user flows, information architecture, and priorities." },
+  { n: "03", step: "03", title: "Design", body: "I move from wireframes to polished interfaces, using hierarchy, interaction, typography, abd reusable components.", description: "I move from wireframes to polished interfaces, using hierarchy, interaction, typography, and reusable components." },
+  { n: "04", step: "04", title: "Deliver", body: "I work closely with developers, consider technical constraints, prototype, gather feedback, and refine the experience.", description: "I work closely with developers, consider technical constraints, prototype, gather feedback, and refine the experience." },
 ];
 
 export const stats: Stat[] = [
-  { value: "2 yrs", label: "Designing fintech products", note: "at Affinity Africa" },
-  { value: "3", label: "End-to-end product case studies", note: "InnoVate, Learnly, & RedPear" },
-  { value: "100+", label: "Screens & components in Figma", note: "across products and design systems" },
+  { value: "Design + Engineering", label: "I understand both interface and the system behind it, allowing me to design experiences that are user-centered and practical build.", note: "Zone 01 " },
+  { value: "Real-World Problems", label: "My work explores products in FinTech, HealthTech, AI na blockchain, particularly problems affecting accessibility, transparency and everyday decision-making.", note: "Chama App & Replaylabb" },
+  { value: "Technical Curiosity", label: "I continue to build my software engineering skills through collaborative projects, hackathons and hands-on experimentation.", note: "across products and design systems" },
 ];
 
 export const projects: Project[] = [
@@ -106,6 +106,6 @@ export const contactLinks: ContactLink[] = [
   // { label: "Behance", value: "behance.net/amamensah", href: "https://www.behance.net", icon: "behance" },
 ];
 
-export const skillChips = ["Fintech design", "Product design, end-to-end", "UX research", "Design-token systems"];
+export const skillChips = ["Fintech design", "Product design, end-to-end", "UX research"];
 
 export const aboutChips = ["Kisumu, Kenya", "Software Developer", "UI/UX Designer"];

@@ -5,7 +5,7 @@ export default function Process() {
   return (
     <section id="process" className="border-y border-border/60 bg-secondary/40 px-6 py-24">
       <div className="mx-auto max-w-6xl">
-        <SectionLabel>how I work</SectionLabel>
+        <SectionLabel>How I work</SectionLabel>
         <h2 className="mt-5 font-display text-4xl tracking-tight md:text-5xl">
           A simple, repeatable process.
         </h2>
