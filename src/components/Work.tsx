@@ -6,17 +6,17 @@ import work3 from "../assets/work-3.jpg";
 const secondary = [
   {
     img: work2,
-    tag: "Photograph marketplace",
-    title: "InnoVate",
-    body: "An insurance admin dashboard with a semantic design system and responsive screens for policies, claims and customers.",
+    tag: "Web App. Photograph marketplace",
+    title: "Upload & Sell Photos",
+    body: "A platform for photographers to upload and sell their work.",
     cta: "Open prototype",
   },
   {
     img: work3,
-    tag: "Fintech · Mobile banking",
-    title: "Mobile Banking App",
-    body: "Referral programmes, account funding, loans, and credit-score screens — balanced with compliance requirements.",
-    cta: "View case study",
+    tag: "Mobile App. Get a driver",
+    title: "Comfort while exploring new places",
+    body: "A mobile app that connects travelers with local drivers for a safe and comfortable ride.",
+    cta: "Open prototype",
   },
 ];
 

@@ -15,7 +15,7 @@ export default function Results() {
         <div className="mt-12 grid gap-6 md:grid-cols-3">
           {stats.map((s) => (
             <article key={s.value} className="rounded-3xl border border-border bg-card p-8">
-              <p className="font-display text-5xl tracking-tight text-primary">{s.value}</p>
+              <p className="font-display text-4xl tracking-tight text-primary">{s.value}</p>
               <p className="mt-4 font-medium">{s.label}</p>
               <p className="mt-1 text-sm text-muted-foreground">{s.note}</p>
             </article>
