@@ -4,7 +4,7 @@ A responsive, high-performance web development portfolio built with React, Vite,
 
 ## 🚀 Live Demo
 
-- **Live URL:** [https://your-portfolio-url.com](https://myportfolio-rose-sigma-31.vercel.app/)
+- **Live URL:** [https://myportfolio-rose-sigma-31.vercel.app/](https://your-portfolio-url.com)
 
 ---
 
